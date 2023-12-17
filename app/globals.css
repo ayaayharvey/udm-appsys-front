@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    background-color: #F0F2F5;
+}
+  
+/* Custom CSS for scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #15803D;
+  border-radius: 16px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #15803D;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+  }
+}
+
+body {
+  color: #333;
+}
+
+html, body {
+  height: 100%;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+@media (min-width: 1326px) and (max-width: 1399px) {
+  html {
+    zoom: .8;
+  }
+}
+
+@media (min-width: 1499px) {
+  html{
+    zoom: .9;
+  }
+}
+

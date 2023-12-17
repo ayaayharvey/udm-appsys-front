@@ -1,0 +1,20 @@
+.alert {
+  position: fixed;
+  top: -100px; 
+  left: 0;
+  width: 100%;
+  background-color: #f44336;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  transition: top 0.5s;
+  z-index: 1000;
+}
+
+.visible {
+  top: 0;
+}
+
+.hidden {
+  top: -100px;
+}
